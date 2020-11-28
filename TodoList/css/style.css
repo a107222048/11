@@ -1,0 +1,50 @@
+body{
+    padding:60px;
+    background-image:url('112.jpg');
+    cursor: url(https://cur.cursors-4u.net/others/oth-8/oth755.cur), auto !important;
+}
+
+
+.content{
+    margin: 10px 0;
+    
+}
+
+
+.title{
+    background-color: hsl(44, 71%, 75%);
+    padding:10px   10px;
+    font-size:  18px;
+    font-family: impact;
+    font-weight: 100;
+    border-style:solid;
+    
+}
+.title2{
+    background-color:  hsl(44, 71%, 75%);
+    text-decoration:line-through ;
+    padding:10px   10px;
+    font-size:  18px;
+    font-family: impact;
+
+}
+.message{
+    background-color:hsl(44, 71%, 75%);
+    padding:10px   10px;
+    font-weight: 900;
+    border-style:solid;
+
+ 
+}
+.message2{
+    background-color: rgb(187, 68, 127);
+    padding:10px   10px;
+
+    
+}
+.i_btn{
+    float: right;
+    margin:10px;
+    font-family: impact;
+    font-weight: 900;
+}
