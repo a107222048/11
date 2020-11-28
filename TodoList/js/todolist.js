@@ -36,7 +36,7 @@ function  newList(data){
             <div class="${titleClass}">
                 <input type="checkbox" onlick="changeStatus('${
                 data._id}',this)"/>
-                <text id="title${data._id}">${data.title} </title>
+                <text id="title${data._id}">${data.title} 1234151142</title>
                 <button class="i_btn" onclick="removeList('${data._id}')">
                 刪除<button>
                 <button class="i_btn" id="edit${data._id}"style="display: 
