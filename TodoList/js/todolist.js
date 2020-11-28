@@ -34,11 +34,11 @@ function  newList(data){
     var content=
         `<div class="content" id="${data._id}">
             <div class="${titleClass}">
-                <input type="checkbox" onlick="changeStatus('${
+                <input type="checkbox" onclick="changeStatus('${
                 data._id}',this)"/>
                 <text id="title${data._id}">${data.title} 1234151142</title>
                 <button class="i_btn" onclick="removeList('${data._id}')">
-                刪除<button>
+                刪除</button>
                 <button class="i_btn" id="edit${data._id}"style="display: 
                 ${editClass}" onclick="editList('${data._id}')">修改
                 </button>
@@ -105,7 +105,7 @@ function changeStatus(id,btnstatus){
     var message =title.nextElementSibling;
     if(btnstatus.checked){
         title.className="title2";
-        message.className="title2";
+        message.className="message";
         $('#edit'+id).css("display","none");
         $('#update'+id).css("display","none");
 
