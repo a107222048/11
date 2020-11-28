@@ -22,15 +22,15 @@ body{
 }
 .title2{
     background-color:  hsl(44, 71%, 75%);
-    text-decoration:line-through ;
-    padding:10px   10px;
+    text-decoration:line-through;
+    padding:10px  10px;
     font-size:  18px;
     font-family: impact;
 
 }
 .message{
     background-color:hsl(44, 71%, 75%);
-    padding:10px   10px;
+    padding:10px  10px;
     font-weight: 900;
     border-style:solid;
 
@@ -38,7 +38,8 @@ body{
 }
 .message2{
     background-color: rgb(187, 68, 127);
-    padding:10px   10px;
+    text-decoration:line-through;
+    padding:10px  10px;
 
     
 }
